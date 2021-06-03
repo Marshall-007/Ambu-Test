@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+    <com.spark.submitbutton.SubmitButton
+        android:id="@+id/driver"
+        android:layout_width="303dp"
+        android:layout_height="92dp"
+        android:layout_marginLeft="43dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginBottom="19dp"
+        android:text="I'm a Driver "
+        android:textColor="@color/gray"
+        app:sub_btn_background="@color/white"
+        app:sub_btn_duration="3100"
+        app:sub_btn_line_color="#1431C5"
+        app:sub_btn_ripple_color="#1431C5"
+        app:sub_btn_tick_color="@color/white" />
+
+
+    <com.spark.submitbutton.SubmitButton
+        android:id="@+id/customer"
+        android:layout_width="306dp"
+        android:layout_height="92dp"
+        android:layout_marginLeft="43dp"
+        android:text="Im a Customer"
+        android:textColor="@color/gray"
+        app:sub_btn_background="@color/white"
+        app:sub_btn_duration="3100"
+        app:sub_btn_line_color="#EA0427"
+        app:sub_btn_ripple_color="#EA0427"
+        app:sub_btn_tick_color="@color/white" />
+
+</LinearLayout>
